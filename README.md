@@ -64,13 +64,5 @@ mvn spring-boot:run
 0. Salir
 Seleccione una opción:
 
-flowchart TD
-    A[Usuario] -->|Selecciona opción| B[Menú Principal]
-    B -->|1: Buscar libro| C[Consultar API Gutendex]
-    C -->|Libro encontrado| D[Guardar en PostgreSQL]
-    C -->|Ya existe| E[Mostrar mensaje]
-    B -->|2: Listar libros| F[Listar desde DB]
-    B -->|3: Listar autores| G[Listar desde DB]
-    B -->|4: Autores vivos en año| H[Consulta filtrada]
-    B -->|5: Libros por idioma| I[Consulta filtrada]
+
 
