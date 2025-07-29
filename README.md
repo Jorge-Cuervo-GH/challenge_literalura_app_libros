@@ -50,6 +50,7 @@ spring.datasource.url=jdbc:postgresql://localhost:5432/literalura
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
 spring.jpa.hibernate.ddl-auto=update
+
 (Cambia tu_usuario y tu_contraseña por tus datos reales.
 La base de datos literalura debe existir en PostgreSQL antes de ejecutar el programa.)
 
@@ -151,12 +152,20 @@ Ingrese el idioma (ej: 'en', 'es', 'fr'): es
 📘 Vida De Lazarillo De Tormes Y De Sus Fortunas Y Adversidades
 ```
 
-📝 Notas:
+## ✅ Conclusiones
 
+Este proyecto me permitió aplicar de manera práctica los conceptos fundamentales del desarrollo backend con **Java** y **Spring Boot**. Durante el proceso, reforcé conocimientos en:
 
-<p>Si buscas un libro ya registrado, la aplicación mostrará un mensaje y no duplicará el registro.</p>
+- El consumo de **APIs externas** para obtener información dinámica (en este caso, de Gutendex).
+- La persistencia de datos usando **Spring Data JPA** y **PostgreSQL**.
+- La importancia de manejar **excepciones** y validar entradas para mejorar la experiencia del usuario.
+- La creación de un menú interactivo en consola para que el programa sea más amigable.
+- Cómo configurar y estructurar una aplicación en capas, separando la lógica en paquetes `service`, `repository`, `model`, `DTO` y `principal`.
 
-<p>Los encabezados en cada opción facilitan la lectura de los resultados en consola.</p>
+Además, comprendí lo relevante que es trabajar con **bases de datos relacionales** y garantizar la consistencia de la información mediante restricciones adecuadas (por ejemplo, evitar duplicados o manejar correctamente las claves primarias).
+
+En conclusión, este proyecto no solo me ayudó a cumplir con los requisitos del curso, sino que también me dio la oportunidad de experimentar con mejoras adicionales que enriquecieron la aplicación, haciéndola más robusta y cercana a un caso real de uso.
+
 
 
 👨‍💻 Autor:
