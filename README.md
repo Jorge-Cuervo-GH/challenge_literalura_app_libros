@@ -53,8 +53,13 @@ spring.jpa.hibernate.ddl-auto=update
 
 # 4. Ejecutar con Maven
 mvn spring-boot:run
+```
 
-## 
+## 📖 Uso de la aplicación
+
+Al ejecutar el programa, se muestra un menú interactivo en la consola:
+
+```plaintext
 === MENÚ PRINCIPAL ===
 1. Buscar libros por título
 2. Listar libros registrados
@@ -63,6 +68,21 @@ mvn spring-boot:run
 5. Listar libros por idioma
 0. Salir
 Seleccione una opción:
+```
+
+## 🔍 Ejemplo de ejecuciones
+📌 Opción 1: Buscar libros por título
+```
+Ingrese el título del libro: Don Quijote
+✅ Libro "Don Quijote" registrado exitosamente.
+```
+Si el libro ya está registrado:
+```
+Ingrese el título del libro: Don Quijote
+⚠️ El libro "Don Quijote" ya está registrado en la base de datos.
+```
+
+
 
 
 
