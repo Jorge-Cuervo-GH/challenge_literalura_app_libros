@@ -50,6 +50,8 @@ spring.datasource.url=jdbc:postgresql://localhost:5432/literalura
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
 spring.jpa.hibernate.ddl-auto=update
+(Cambia tu_usuario y tu_contraseña por tus datos reales.
+La base de datos literalura debe existir en PostgreSQL antes de ejecutar el programa.)
 
 # 4. Ejecutar con Maven
 mvn spring-boot:run
@@ -148,24 +150,13 @@ Ingrese el idioma (ej: 'en', 'es', 'fr'): es
 📘 Amor y llanto : $b colección de leyendas históricas originales
 📘 Vida De Lazarillo De Tormes Y De Sus Fortunas Y Adversidades
 ```
-🗄️ Configuración de la base de datos:
-<p>Antes de ejecutar el proyecto, asegúrate de que PostgreSQL esté en funcionamiento.</p>
-Configura el archivo application.properties con tus credenciales:
-```
-spring.datasource.url=jdbc:postgresql://localhost:5432/literalura
-spring.datasource.username=tu_usuario
-spring.datasource.password=tu_contraseña
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=false
-```
+
 📝 Notas:
-Cambia tu_usuario y tu_contraseña por tus datos reales.
 
-La base de datos literalura debe existir en PostgreSQL antes de ejecutar el programa.
 
-Si buscas un libro ya registrado, la aplicación mostrará un mensaje y no duplicará el registro.
+<p>Si buscas un libro ya registrado, la aplicación mostrará un mensaje y no duplicará el registro.</p>
 
-Los encabezados en cada opción facilitan la lectura de los resultados en consola.
+<p>Los encabezados en cada opción facilitan la lectura de los resultados en consola.</p>
 
 
 👨‍💻 Autor:
