@@ -150,7 +150,7 @@ Ingrese el idioma (ej: 'en', 'es', 'fr'): es
 ```
 🗄️ Configuración de la base de datos:
 <p>Antes de ejecutar el proyecto, asegúrate de que PostgreSQL esté en funcionamiento.</p>
-<p>Configura el archivo application.properties con tus credenciales:</p>
+Configura el archivo application.properties con tus credenciales:
 ```
 spring.datasource.url=jdbc:postgresql://localhost:5432/literalura
 spring.datasource.username=tu_usuario
