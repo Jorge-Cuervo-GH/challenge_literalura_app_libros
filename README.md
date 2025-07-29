@@ -148,9 +148,9 @@ Ingrese el idioma (ej: 'en', 'es', 'fr'): es
 📘 Amor y llanto : $b colección de leyendas históricas originales
 📘 Vida De Lazarillo De Tormes Y De Sus Fortunas Y Adversidades
 ```
-🗄️ Configuración de la base de datos
-Antes de ejecutar el proyecto, asegúrate de que PostgreSQL esté en funcionamiento.
-Configura el archivo application.properties con tus credenciales:
+🗄️ Configuración de la base de datos:
+<p>Antes de ejecutar el proyecto, asegúrate de que PostgreSQL esté en funcionamiento.</p>
+<p>Configura el archivo application.properties con tus credenciales:</p>
 ```
 spring.datasource.url=jdbc:postgresql://localhost:5432/literalura
 spring.datasource.username=tu_usuario
@@ -158,7 +158,7 @@ spring.datasource.password=tu_contraseña
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=false
 ```
-📝 Notas
+📝 Notas:
 Cambia tu_usuario y tu_contraseña por tus datos reales.
 
 La base de datos literalura debe existir en PostgreSQL antes de ejecutar el programa.
@@ -168,8 +168,8 @@ Si buscas un libro ya registrado, la aplicación mostrará un mensaje y no dupli
 Los encabezados en cada opción facilitan la lectura de los resultados en consola.
 
 
-👨‍💻 Autor
-Proyecto desarrollado por Jorge Cuervo para el curso de Backend de Alura Latam.
+👨‍💻 Autor:
+<p>Proyecto desarrollado por Jorge Cuervo para el curso de Backend de Alura Latam.</p>
 
 
 
