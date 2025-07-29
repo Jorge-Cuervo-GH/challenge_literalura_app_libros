@@ -127,7 +127,7 @@ Ingrese el título del libro: Don Quijote
 👤 Flaubert, Gustave (Nacimiento: 1821, Muerte: 1880)
 👤 Ellis, Havelock (Nacimiento: 1859, Muerte: 1939)
 ```
-📌 Opción 4: Autores vivos en un año
+📌 Opción 4: Autores vivos en un año específico digitado por el usuario
 ```
 Ingrese el año: 1852
 === 📅 LISTA DE AUTORES VIVOS EN EL AÑO 1852 === 
